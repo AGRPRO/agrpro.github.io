@@ -36,7 +36,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
-        icon: `static/favicon.png`,
+        icon: `static/favicon.jpg`,
       },
     },
     
@@ -45,6 +45,14 @@ module.exports = {
       options: {
         name: `api`,
         path: path.join(__dirname, `src/AGRProAPI`),
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `api`,
+        path: path.join(__dirname, `static`),
       },
     },
 

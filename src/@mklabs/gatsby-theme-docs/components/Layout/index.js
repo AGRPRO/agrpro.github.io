@@ -9,6 +9,7 @@ import Header from '../Header';
 import Overlay from '@mklabs/gatsby-theme-docs/src/components/Overlay';
 import { Container, Main, Children } from './styles';
 import { useStaticQuery, graphql, Link } from 'gatsby';
+import Img from "gatsby-image";
 
 
 export default function Layout({
@@ -18,19 +19,32 @@ export default function Layout({
     headings,
 }) {
 
-    const { site } = useStaticQuery(
+    const data = useStaticQuery(
         graphql`
             query {
                 site {
                     siteMetadata {
-                        siteAuthor
+                        siteUrl
                     }
                 }
+
+                file(relativePath: { eq: "angeliv_logo.jpg" }) {
+                    childImageSharp {
+                      # Specify the image processing specifications right in the query.
+                      # Makes it trivial to update as your page's design changes.
+                      fixed(width: 48, height: 48) {
+                        ...GatsbyImageSharpFixed
+                      }
+                    }
+                  }
+                
             }
         `,
     );
 
-    const { siteAuthor } = site.siteMetadata;
+    const { siteUrl } = data.site.siteMetadata;
+
+    console.log(data)
 
     const contentRef = useRef(null);
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -46,8 +60,8 @@ export default function Layout({
             <Overlay isMenuOpen={isMenuOpen} onClick={handleMenuOpen} />
             <header className="docs-header">
                 <div class="header-links">
-                    <Link to={siteAuthor} aria-label="Go to home page">
-                        MK.
+                    <Link to={siteUrl} aria-label="Go to home page">
+                        <Img fixed={data.file.childImageSharp.fixed} />
                     </Link>
                     
                     <nav>

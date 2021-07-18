@@ -27,7 +27,7 @@ export default function GlobalStyle() {
 
         .docs-header {
           background-color: ${theme.colors.header};
-          padding: 1rem 2rem; 
+          padding: 8px 2rem;
           font-size: 1.25rem;
           color: ${theme.colors.title};
           margin-bottom: 8px;
@@ -40,7 +40,7 @@ export default function GlobalStyle() {
           }
 
           a:hover {
-            color: #aca599;
+            color: ${theme.colors.hover};
             text-decoration: none;
           }
         }
@@ -51,7 +51,8 @@ export default function GlobalStyle() {
           nav {
             margin-left: 1em;
             padding-left: 1em;
-            
+            padding-top: 8px;
+
             a {
               margin-left: 1em;
               padding-left: 1em;

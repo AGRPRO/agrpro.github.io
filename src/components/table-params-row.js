@@ -1,5 +1,6 @@
-import { css } from '@emotion/react';
+import { css } from '@emotion/react'
 import React from "react"
+import theme from "../@mklabs/gatsby-theme-docs/styles/theme"
 
 const TableParamsRow = ({ item, key }) => {
     const name = item.children.find(child => child.name === "name").content
@@ -9,7 +10,7 @@ const TableParamsRow = ({ item, key }) => {
     return (
         <tr key={key}>
             <td>
-                <p css={css`color: #ACA599; margin-bottom: 0`}>{name}</p>
+                <p css={css`color: ${theme.colors.link}; margin-bottom: 0`}>{name}</p>
                 <p css={css`font-size: 14px; margin-bottom: 0; font-style: italic`}>{type}</p>
             </td>
             <td css={css`vertical-align: baseline`}>

@@ -1,15 +1,16 @@
-// import React from 'react';
+// import React from `react`;
 // export default ({ data }) => <pre>{JSON.stringify(data, null, 2)}</pre>;
 
-import React from 'react';
-import { css } from '@emotion/react';
+import React from "react";
+import { css } from "@emotion/react";
+import theme from "../@mklabs/gatsby-theme-docs/styles/theme"
 
-import Layout from '@mklabs/gatsby-theme-docs/src/components/Layout';
-import SEO from '@mklabs/gatsby-theme-docs/src/components/SEO';
-import slugify from '@mklabs/gatsby-theme-docs/src/util/slug';
+import Layout from "@mklabs/gatsby-theme-docs/src/components/Layout";
+import SEO from "@mklabs/gatsby-theme-docs/src/components/SEO";
+import slugify from "@mklabs/gatsby-theme-docs/src/util/slug";
 import Image from "./image"
 import { Link } from "gatsby"
-import TableParams from './table-params';
+import TableParams from "./table-params";
 
 
 const findXML = (node, name) => {
@@ -17,7 +18,7 @@ const findXML = (node, name) => {
 }
 
 const isDelegate = (node) => {
-    const params = findParams(node, "outputs")
+    const params = findParams(node, `outputs`)
     if (!params || !params.length) return false
 
     const first = params[0]
@@ -26,17 +27,17 @@ const isDelegate = (node) => {
     const child = first.children[0]
     if (!child) return false;
 
-    return child.content === "Output Delegate"
+    return child.content === `Output Delegate`
 }
 
 const GetVariableType = (node) => {
-    const params = findParams(node, "outputs")
+    const params = findParams(node, `outputs`)
     if (!params || !params.length) return
 
     const first = params[0]
     if (!first || !first.children) return
 
-    const type = first.children.find(child => child.name === "type")
+    const type = first.children.find(child => child.name === `type`)
     if (!type) return
 
     return type.content
@@ -51,14 +52,14 @@ const findParams = (node, type) => {
     let { xmlChildren } = inputs;
 
     return xmlChildren.filter(xmlChild => {
-        const isExec = xmlChild.children.find(child => child.name === "type" && child.content === "Exec");
-        const isTarget = xmlChild.children.find(child => child.name === "name" && child.content === "Target");
+        const isExec = xmlChild.children.find(child => child.name === `type` && child.content === `Exec`);
+        const isTarget = xmlChild.children.find(child => child.name === `name` && child.content === `Target`);
         return !isExec && !isTarget;
     })
 }
 
 const findImage = (node, images) => {
-    const imgNode = node.xml.find(item => item.name === "imgpath");
+    const imgNode = node.xml.find(item => item.name === `imgpath`);
     const relativePath = imgNode.content.replace(/^\.\./, node.dirname)
     const img = images.find(({ node }) => node.parent.relativePath === relativePath)
     if (!img) console.log(node, images, relativePath)
@@ -74,7 +75,7 @@ const Docs = ({ data, pageContext }) => {
     const title = `${pageContext.classParent}`
     const description = `Generated API documentation for ${pageContext.classParent}`
     const slug = pageContext.slug
-    const image = ""
+    const image = ``
 
     let members = data.members.edges
     const images = data.images.edges
@@ -91,8 +92,8 @@ const Docs = ({ data, pageContext }) => {
     members.sort((a, b) => {
         const typeA = findXML(a.node, `type`).content
         const typeB = findXML(b.node, `type`).content
-        const isVariableA = typeA === "Variable"
-        const isVariableB = typeB === "Variable"
+        const isVariableA = typeA === `Variable`
+        const isVariableB = typeB === `Variable`
 
         if (isVariableA && isVariableB) return 0
         if (!isVariableA && isVariableB) return 1
@@ -100,7 +101,7 @@ const Docs = ({ data, pageContext }) => {
     })
 
     const variables = members.filter(({ node }) => {
-        return findXML(node, `type`).content === "Variable"
+        return findXML(node, `type`).content === `Variable`
     })
 
     const delegates = members.filter(({ node }) => {
@@ -108,7 +109,7 @@ const Docs = ({ data, pageContext }) => {
     })
 
     const nodes = members.filter(({ node }) => {
-        return findXML(node, `type`).content === "Node" && !isDelegate(node)
+        return findXML(node, `type`).content === `Node` && !isDelegate(node)
     })
 
     const headings = members.map(({ node }) => ({
@@ -134,7 +135,7 @@ const Docs = ({ data, pageContext }) => {
                                 {findXML(node, `description`).content}
                             </p>
 
-                            <p css={css`color: #ACA599; margin-bottom: 0; font-style: italic`}>{GetVariableType(node)}</p>
+                            <p css={css`color: ${theme.colors.text}; margin-bottom: 0; font-style: italic`}>{GetVariableType(node)}</p>
                         </div>
 
                         <hr />
