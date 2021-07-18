@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGRCoreAnimInstance</id>
+	<display_name>AGRCore Anim Instance</display_name>
+	<nodes>
+		<node>
+			<id>OwningCharacter</id>
+			<shorttitle>Get OwningCharacter</shorttitle>
+		</node>
+		<node>
+			<id>OwningCharacter</id>
+			<shorttitle>Set OwningCharacter</shorttitle>
+		</node>
+		<node>
+			<id>OwnerMovementComponent</id>
+			<shorttitle>Get OwnerMovementComponent</shorttitle>
+		</node>
+		<node>
+			<id>OwnerMovementComponent</id>
+			<shorttitle>Set OwnerMovementComponent</shorttitle>
+		</node>
+		<node>
+			<id>AnimMasterComponent</id>
+			<shorttitle>Get AnimMasterComponent</shorttitle>
+		</node>
+		<node>
+			<id>AnimMasterComponent</id>
+			<shorttitle>Set AnimMasterComponent</shorttitle>
+		</node>
+		<node>
+			<id>ModificatonTags</id>
+			<shorttitle>Get ModificatonTags</shorttitle>
+		</node>
+		<node>
+			<id>ModificatonTags</id>
+			<shorttitle>Set ModificatonTags</shorttitle>
+		</node>
+		<node>
+			<id>BasePose</id>
+			<shorttitle>Get BasePose</shorttitle>
+		</node>
+		<node>
+			<id>BasePose</id>
+			<shorttitle>Set BasePose</shorttitle>
+		</node>
+		<node>
+			<id>OverlayPose</id>
+			<shorttitle>Get OverlayPose</shorttitle>
+		</node>
+		<node>
+			<id>OverlayPose</id>
+			<shorttitle>Set OverlayPose</shorttitle>
+		</node>
+		<node>
+			<id>RawAimOffset</id>
+			<shorttitle>Get RawAimOffset</shorttitle>
+		</node>
+		<node>
+			<id>RawAimOffset</id>
+			<shorttitle>Set RawAimOffset</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetType</id>
+			<shorttitle>Get AimOffsetType</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetType</id>
+			<shorttitle>Set AimOffsetType</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetBehavior</id>
+			<shorttitle>Get AimOffsetBehavior</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetBehavior</id>
+			<shorttitle>Set AimOffsetBehavior</shorttitle>
+		</node>
+		<node>
+			<id>LookAtLocation</id>
+			<shorttitle>Get LookAtLocation</shorttitle>
+		</node>
+		<node>
+			<id>LookAtLocation</id>
+			<shorttitle>Set LookAtLocation</shorttitle>
+		</node>
+		<node>
+			<id>FinalAimOffset</id>
+			<shorttitle>Get FinalAimOffset</shorttitle>
+		</node>
+		<node>
+			<id>FinalAimOffset</id>
+			<shorttitle>Set FinalAimOffset</shorttitle>
+		</node>
+		<node>
+			<id>AimClamp</id>
+			<shorttitle>Get AimClamp</shorttitle>
+		</node>
+		<node>
+			<id>AimClamp</id>
+			<shorttitle>Set AimClamp</shorttitle>
+		</node>
+		<node>
+			<id>RotationMethod</id>
+			<shorttitle>Get RotationMethod</shorttitle>
+		</node>
+		<node>
+			<id>RotationMethod</id>
+			<shorttitle>Set RotationMethod</shorttitle>
+		</node>
+		<node>
+			<id>DeltaTick</id>
+			<shorttitle>Get DeltaTick</shorttitle>
+		</node>
+		<node>
+			<id>DeltaTick</id>
+			<shorttitle>Set DeltaTick</shorttitle>
+		</node>
+		<node>
+			<id>PreviousRotation</id>
+			<shorttitle>Get PreviousRotation</shorttitle>
+		</node>
+		<node>
+			<id>PreviousRotation</id>
+			<shorttitle>Set PreviousRotation</shorttitle>
+		</node>
+		<node>
+			<id>PreviousFrameAim</id>
+			<shorttitle>Get PreviousFrameAim</shorttitle>
+		</node>
+		<node>
+			<id>PreviousFrameAim</id>
+			<shorttitle>Set PreviousFrameAim</shorttitle>
+		</node>
+		<node>
+			<id>Velocity</id>
+			<shorttitle>Get Velocity</shorttitle>
+		</node>
+		<node>
+			<id>Velocity</id>
+			<shorttitle>Set Velocity</shorttitle>
+		</node>
+		<node>
+			<id>ForwardVelocity</id>
+			<shorttitle>Get ForwardVelocity</shorttitle>
+		</node>
+		<node>
+			<id>ForwardVelocity</id>
+			<shorttitle>Set ForwardVelocity</shorttitle>
+		</node>
+		<node>
+			<id>StrafeVelocity</id>
+			<shorttitle>Get StrafeVelocity</shorttitle>
+		</node>
+		<node>
+			<id>StrafeVelocity</id>
+			<shorttitle>Set StrafeVelocity</shorttitle>
+		</node>
+		<node>
+			<id>UpVelocity</id>
+			<shorttitle>Get UpVelocity</shorttitle>
+		</node>
+		<node>
+			<id>UpVelocity</id>
+			<shorttitle>Set UpVelocity</shorttitle>
+		</node>
+		<node>
+			<id>Direction</id>
+			<shorttitle>Get Direction</shorttitle>
+		</node>
+		<node>
+			<id>Direction</id>
+			<shorttitle>Set Direction</shorttitle>
+		</node>
+		<node>
+			<id>InputAcceleration</id>
+			<shorttitle>Get InputAcceleration</shorttitle>
+		</node>
+		<node>
+			<id>InputAcceleration</id>
+			<shorttitle>Set InputAcceleration</shorttitle>
+		</node>
+		<node>
+			<id>bFirstPerson</id>
+			<shorttitle>Get bFirstPerson</shorttitle>
+		</node>
+		<node>
+			<id>bFirstPerson</id>
+			<shorttitle>Set bFirstPerson</shorttitle>
+		</node>
+		<node>
+			<id>bIdle</id>
+			<shorttitle>Get bIdle</shorttitle>
+		</node>
+		<node>
+			<id>bIdle</id>
+			<shorttitle>Set bIdle</shorttitle>
+		</node>
+		<node>
+			<id>bInAir</id>
+			<shorttitle>Get bInAir</shorttitle>
+		</node>
+		<node>
+			<id>bInAir</id>
+			<shorttitle>Set bInAir</shorttitle>
+		</node>
+		<node>
+			<id>bStanding</id>
+			<shorttitle>Get bStanding</shorttitle>
+		</node>
+		<node>
+			<id>bStanding</id>
+			<shorttitle>Set bStanding</shorttitle>
+		</node>
+		<node>
+			<id>bSwimming</id>
+			<shorttitle>Get bSwimming</shorttitle>
+		</node>
+		<node>
+			<id>bSwimming</id>
+			<shorttitle>Set bSwimming</shorttitle>
+		</node>
+		<node>
+			<id>bCrouching</id>
+			<shorttitle>Get bCrouching</shorttitle>
+		</node>
+		<node>
+			<id>bCrouching</id>
+			<shorttitle>Set bCrouching</shorttitle>
+		</node>
+		<node>
+			<id>bGrounded</id>
+			<shorttitle>Get bGrounded</shorttitle>
+		</node>
+		<node>
+			<id>bGrounded</id>
+			<shorttitle>Set bGrounded</shorttitle>
+		</node>
+		<node>
+			<id>bWalkingState</id>
+			<shorttitle>Get bWalkingState</shorttitle>
+		</node>
+		<node>
+			<id>bWalkingState</id>
+			<shorttitle>Set bWalkingState</shorttitle>
+		</node>
+		<node>
+			<id>bFlying</id>
+			<shorttitle>Get bFlying</shorttitle>
+		</node>
+		<node>
+			<id>bFlying</id>
+			<shorttitle>Set bFlying</shorttitle>
+		</node>
+		<node>
+			<id>bFalling</id>
+			<shorttitle>Get bFalling</shorttitle>
+		</node>
+		<node>
+			<id>bFalling</id>
+			<shorttitle>Set bFalling</shorttitle>
+		</node>
+		<node>
+			<id>MovementMode</id>
+			<shorttitle>Get MovementMode</shorttitle>
+		</node>
+		<node>
+			<id>MovementMode</id>
+			<shorttitle>Set MovementMode</shorttitle>
+		</node>
+		<node>
+			<id>Lean</id>
+			<shorttitle>Get Lean</shorttitle>
+		</node>
+		<node>
+			<id>Lean</id>
+			<shorttitle>Set Lean</shorttitle>
+		</node>
+		<node>
+			<id>AimDelta</id>
+			<shorttitle>Get AimDelta</shorttitle>
+		</node>
+		<node>
+			<id>AimDelta</id>
+			<shorttitle>Set AimDelta</shorttitle>
+		</node>
+		<node>
+			<id>TargetFrameRate</id>
+			<shorttitle>Get TargetFrameRate</shorttitle>
+		</node>
+		<node>
+			<id>TargetFrameRate</id>
+			<shorttitle>Set TargetFrameRate</shorttitle>
+		</node>
+		<node>
+			<id>LeanSmooth</id>
+			<shorttitle>Get LeanSmooth</shorttitle>
+		</node>
+		<node>
+			<id>LeanSmooth</id>
+			<shorttitle>Set LeanSmooth</shorttitle>
+		</node>
+		<node>
+			<id>AimSmooth</id>
+			<shorttitle>Get AimSmooth</shorttitle>
+		</node>
+		<node>
+			<id>AimSmooth</id>
+			<shorttitle>Set AimSmooth</shorttitle>
+		</node>
+	</nodes>
+</root>

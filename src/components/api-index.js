@@ -9,7 +9,7 @@ import { Link } from "gatsby";
 
 const Docs = ({ data }) => {
     const title = `Generated API documentation`
-    const description = `${title} for GAS Companion`;
+    const description = `${title} for AGR Pro`;
     const slug = "api"
     const image = ""
 

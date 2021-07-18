@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGR_Footstep_Notify</id>
+	<display_name>AGR Footstep Notify</display_name>
+	<nodes>
+		<node>
+			<id>FootKey</id>
+			<shorttitle>Get FootKey</shorttitle>
+		</node>
+		<node>
+			<id>FootKey</id>
+			<shorttitle>Set FootKey</shorttitle>
+		</node>
+	</nodes>
+</root>

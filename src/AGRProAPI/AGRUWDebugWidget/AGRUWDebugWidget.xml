@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGRUWDebugWidget</id>
+	<display_name>AGRUWDebug Widget</display_name>
+	<nodes>
+		<node>
+			<id>AGRVariablesVerticalBox</id>
+			<shorttitle>Get AGRVariablesVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRVariablesVerticalBox</id>
+			<shorttitle>Set AGRVariablesVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRAnimStatesVerticalBox</id>
+			<shorttitle>Get AGRAnimStatesVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRAnimStatesVerticalBox</id>
+			<shorttitle>Set AGRAnimStatesVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRAimOffsetVerticalBox</id>
+			<shorttitle>Get AGRAimOffsetVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRAimOffsetVerticalBox</id>
+			<shorttitle>Set AGRAimOffsetVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRRotationVerticalBox</id>
+			<shorttitle>Get AGRRotationVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRRotationVerticalBox</id>
+			<shorttitle>Set AGRRotationVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRRuntimeVerticalBox</id>
+			<shorttitle>Get AGRRuntimeVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRRuntimeVerticalBox</id>
+			<shorttitle>Set AGRRuntimeVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRMovementVerticalBox</id>
+			<shorttitle>Get AGRMovementVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRMovementVerticalBox</id>
+			<shorttitle>Set AGRMovementVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRStateVerticalBox</id>
+			<shorttitle>Get AGRStateVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRStateVerticalBox</id>
+			<shorttitle>Set AGRStateVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRLeansVerticalBox</id>
+			<shorttitle>Get AGRLeansVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRLeansVerticalBox</id>
+			<shorttitle>Set AGRLeansVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRSetupVerticalBox</id>
+			<shorttitle>Get AGRSetupVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRSetupVerticalBox</id>
+			<shorttitle>Set AGRSetupVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AnimBPCustomPropsVerticalBox</id>
+			<shorttitle>Get AnimBPCustomPropsVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AnimBPCustomPropsVerticalBox</id>
+			<shorttitle>Set AnimBPCustomPropsVerticalBox</shorttitle>
+		</node>
+		<node>
+			<id>AGRDebugPanelCustomProps</id>
+			<shorttitle>Get AGRDebugPanelCustomProps</shorttitle>
+		</node>
+		<node>
+			<id>AGRDebugPanelCustomProps</id>
+			<shorttitle>Set AGRDebugPanelCustomProps</shorttitle>
+		</node>
+	</nodes>
+</root>

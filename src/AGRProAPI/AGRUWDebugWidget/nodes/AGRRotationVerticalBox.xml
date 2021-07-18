@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGRUWDebugWidget</class_id>
+	<class_name>AGRUWDebug Widget</class_name>
+	<type>Variable</type>
+	<shorttitle>AGRRotationVerticalBox</shorttitle>
+	<fulltitle>AGRRotationVerticalBox</fulltitle>
+	<description>AGRRotation Vertical Box</description>
+	<imgpath>../img/nd_img_AGRRotationVerticalBox.png</imgpath>
+	<category></category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>AGRRotation Vertical Box</name>
+			<type>Vertical Box Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGRUWDebug Widget Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name></name>
+			<type>Vertical Box Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

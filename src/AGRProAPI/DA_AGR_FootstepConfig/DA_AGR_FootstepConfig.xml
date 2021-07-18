@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>DA_AGR_FootstepConfig</id>
+	<display_name>DA AGR Footstep Config</display_name>
+	<nodes>
+		<node>
+			<id>GetVelocityRange</id>
+			<shorttitle>Get Velocity Range</shorttitle>
+		</node>
+		<node>
+			<id>GetSurfaceReaction</id>
+			<shorttitle>Get Surface Reaction</shorttitle>
+		</node>
+		<node>
+			<id>GetFoostepSettings</id>
+			<shorttitle>Get Foostep Settings</shorttitle>
+		</node>
+		<node>
+			<id>MinVelocity</id>
+			<shorttitle>Get MinVelocity</shorttitle>
+		</node>
+		<node>
+			<id>MinVelocity</id>
+			<shorttitle>Set MinVelocity</shorttitle>
+		</node>
+		<node>
+			<id>MaxVelocity</id>
+			<shorttitle>Get MaxVelocity</shorttitle>
+		</node>
+		<node>
+			<id>MaxVelocity</id>
+			<shorttitle>Set MaxVelocity</shorttitle>
+		</node>
+		<node>
+			<id>Sounds</id>
+			<shorttitle>Get Sounds</shorttitle>
+		</node>
+		<node>
+			<id>Sounds</id>
+			<shorttitle>Set Sounds</shorttitle>
+		</node>
+		<node>
+			<id>Particles</id>
+			<shorttitle>Get Particles</shorttitle>
+		</node>
+		<node>
+			<id>Particles</id>
+			<shorttitle>Set Particles</shorttitle>
+		</node>
+		<node>
+			<id>Attenuation</id>
+			<shorttitle>Get Attenuation</shorttitle>
+		</node>
+		<node>
+			<id>Attenuation</id>
+			<shorttitle>Set Attenuation</shorttitle>
+		</node>
+		<node>
+			<id>Concurrency</id>
+			<shorttitle>Get Concurrency</shorttitle>
+		</node>
+		<node>
+			<id>Concurrency</id>
+			<shorttitle>Set Concurrency</shorttitle>
+		</node>
+	</nodes>
+</root>

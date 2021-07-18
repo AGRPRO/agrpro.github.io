@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGRCharacter</id>
+	<display_name>AGRCharacter</display_name>
+	<nodes>
+		<node>
+			<id>AGRAnimMasterComponent</id>
+			<shorttitle>Get AGRAnimMasterComponent</shorttitle>
+		</node>
+		<node>
+			<id>AGRAnimMasterComponent</id>
+			<shorttitle>Set AGRAnimMasterComponent</shorttitle>
+		</node>
+	</nodes>
+</root>

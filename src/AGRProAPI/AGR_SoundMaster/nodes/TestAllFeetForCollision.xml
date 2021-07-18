@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_SoundMaster</class_id>
+	<class_name>AGR Sound Master</class_name>
+	<type>Node</type>
+	<shorttitle>Test All Feet for Collision</shorttitle>
+	<fulltitle>Test All Feet for Collision</fulltitle>
+	<description>Auto footstep placement</description>
+	<imgpath>../img/nd_img_TestAllFeetForCollision.png</imgpath>
+	<category>AGR|Footstep</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Sound Master Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

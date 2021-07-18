@@ -39,7 +39,7 @@ and hit `Generate Docs`. When the documentation generation is done, you'll be ab
 
 To bring these generated API XML files into this Gatsby repo:
 
-1. First, make sure to edit `gatsby-config.js` file and adjust the `HOST_PROJECT` property to point to your local folder for AGRPro dev project.
+1. First, make sure to edit `config.js` file and adjust the `HOST_PROJECT` property to point to your local folder for AGRPro dev project.
 2. Then, you can use `scripts/api.js` by running `npm run update-api`
 3. rerun gatsby with `npm run dev` to see the result
 
@@ -52,6 +52,8 @@ You'll find `sidebar.yml` in `src/config` which dictates the sidebar content.
 You'll find generated API XML file in `src/AGRProAPI` which the target directory when you run `npm run update-api`
 
 You'll find `404.js` file in the `src/pages` folder.
+
+You'll find the homepage mdx in `src/@mklabs/gatsby-theme-docs/text/index.mdx`
 
 Every other folder in `src/` are used by Gatsby and the custom theme to generate the website and shouldn't be modified (unless you know what you're doing ;))
 

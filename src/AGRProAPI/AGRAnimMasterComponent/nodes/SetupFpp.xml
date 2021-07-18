@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGRAnimMasterComponent</class_id>
+	<class_name>AGRAnim Master Component</class_name>
+	<type>Node</type>
+	<shorttitle>Setup Fpp</shorttitle>
+	<fulltitle>Setup Fpp</fulltitle>
+	<description>Setup Fpp</description>
+	<imgpath>../img/nd_img_SetupFpp.png</imgpath>
+	<category>AGR|First Person</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGRAnim Master Component Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In First Person</name>
+			<type>Boolean</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

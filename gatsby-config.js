@@ -1,9 +1,6 @@
 const path = require(`path`)
 
 module.exports = {
-
-  HOST_PROJECT: `C:\\dev\\UnrealProjects\\AGRPro`,
-
   // pathPrefix: `/`,
 
   siteMetadata: {

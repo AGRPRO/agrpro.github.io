@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGRAnimMasterComponent</class_id>
+	<class_name>AGRAnim Master Component</class_name>
+	<type>Node</type>
+	<shorttitle>Setup Aim Offset</shorttitle>
+	<fulltitle>Setup Aim Offset</fulltitle>
+	<description>Setup Aim Offset</description>
+	<imgpath>../img/nd_img_SetupAimOffset.png</imgpath>
+	<category>AGR|Aim Offset</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGRAnim Master Component Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Aim Offset Type</name>
+			<type>EAimOffsets Enum</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Aim Behavior</name>
+			<type>EAimOffsetClamp Enum</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Aim Clamp</name>
+			<type>Float</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Camera Based</name>
+			<type>Boolean</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Aim Socket Name</name>
+			<type>Name</type>
+			<description></description>
+		</param>
+		<param>
+			<name>In Look at Socket Name</name>
+			<type>Name</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

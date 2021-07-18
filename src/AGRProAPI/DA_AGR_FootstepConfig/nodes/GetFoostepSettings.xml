@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>DA_AGR_FootstepConfig</class_id>
+	<class_name>DA AGR Footstep Config</class_name>
+	<type>Node</type>
+	<shorttitle>Get Foostep Settings</shorttitle>
+	<fulltitle>Get Foostep Settings</fulltitle>
+	<description>Get Foostep Settings</description>
+	<imgpath>../img/nd_img_GetFoostepSettings.png</imgpath>
+	<category>AGR Footsteps</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>DA AGR Footstep Config Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Attenuation Ref</name>
+			<type>Sound Attenuation Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Concurrency Ref</name>
+			<type>Sound Concurrency Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_Footstep_Notify</class_id>
+	<class_name>AGR Footstep Notify</class_name>
+	<type>Variable</type>
+	<shorttitle>FootKey</shorttitle>
+	<fulltitle>FootKey</fulltitle>
+	<description>Foot Key</description>
+	<imgpath>../img/nd_img_FootKey.png</imgpath>
+	<category></category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Foot Key</name>
+			<type>Name</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Footstep Notify Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name></name>
+			<type>Name</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

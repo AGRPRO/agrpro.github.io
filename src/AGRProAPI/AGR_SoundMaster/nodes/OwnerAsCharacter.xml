@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_SoundMaster</class_id>
+	<class_name>AGR Sound Master</class_name>
+	<type>Variable</type>
+	<shorttitle>OwnerAsCharacter</shorttitle>
+	<fulltitle>OwnerAsCharacter</fulltitle>
+	<description>Owner as Character</description>
+	<imgpath>../img/nd_img_OwnerAsCharacter.png</imgpath>
+	<category></category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Owner As Character</name>
+			<type>Character Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Sound Master Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name></name>
+			<type>Character Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

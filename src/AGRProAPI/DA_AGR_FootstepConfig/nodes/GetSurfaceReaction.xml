@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>DA_AGR_FootstepConfig</class_id>
+	<class_name>DA AGR Footstep Config</class_name>
+	<type>Node</type>
+	<shorttitle>Get Surface Reaction</shorttitle>
+	<fulltitle>Get Surface Reaction</fulltitle>
+	<description>Get sound cues realtive to the physical surfaces called</description>
+	<imgpath>../img/nd_img_GetSurfaceReaction.png</imgpath>
+	<category>AGR Footsteps</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>DA AGR Footstep Config Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Input Param</name>
+			<type>EPhysicalSurface Enum</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Sound</name>
+			<type>Sound Cue Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Particle</name>
+			<type>Niagara System Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

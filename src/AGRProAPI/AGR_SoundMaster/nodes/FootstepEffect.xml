@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_SoundMaster</class_id>
+	<class_name>AGR Sound Master</class_name>
+	<type>Node</type>
+	<shorttitle>Footstep Effect</shorttitle>
+	<fulltitle>Footstep Effect</fulltitle>
+	<description>Footstep Effect</description>
+	<imgpath>../img/nd_img_FootstepEffect.png</imgpath>
+	<category>AGR|Footstep</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Sound Master Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Hit</name>
+			<type>Hit Result Structure (by ref)</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Sound</name>
+			<type>Audio Component Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Particle</name>
+			<type>Niagara System Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

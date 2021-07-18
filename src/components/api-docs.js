@@ -91,8 +91,8 @@ const Docs = ({ data, pageContext }) => {
     members.sort((a, b) => {
         const typeA = findXML(a.node, `type`).content
         const typeB = findXML(b.node, `type`).content
-        const isVariableA = typeA == "Variable"
-        const isVariableB = typeB == "Variable"
+        const isVariableA = typeA === "Variable"
+        const isVariableB = typeB === "Variable"
 
         if (isVariableA && isVariableB) return 0
         if (!isVariableA && isVariableB) return 1

@@ -7,7 +7,7 @@ import React from 'react';
 const Logo = () => (
     <div>
         <h1 css={css`font-size: 24px; margin-bottom: 0;`}>
-          GAS Companion
+          AGR Pro
         </h1>
     </div>
 );

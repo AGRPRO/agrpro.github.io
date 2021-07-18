@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGRAnimMasterComponent</class_id>
+	<class_name>AGRAnim Master Component</class_name>
+	<type>Node</type>
+	<shorttitle>OnFirstPerson (AGRAnimMasterComponent)</shorttitle>
+	<fulltitle>OnFirstPerson (AGRAnimMasterComponent)</fulltitle>
+	<description>On First Person</description>
+	<imgpath>../img/nd_img_OnFirstPerson.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Is First Person View</name>
+			<type>Boolean</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

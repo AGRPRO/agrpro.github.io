@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_SoundMaster</class_id>
+	<class_name>AGR Sound Master</class_name>
+	<type>Node</type>
+	<shorttitle>CharacterMadeFootstepSound (AGR_SoundMaster)</shorttitle>
+	<fulltitle>CharacterMadeFootstepSound (AGR_SoundMaster)</fulltitle>
+	<description>variables</description>
+	<imgpath>../img/nd_img_CharacterMadeFootstepSound.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Hit Event</name>
+			<type>Hit Result Structure</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Volume Multi</name>
+			<type>Float</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Sound</name>
+			<type>Audio Component Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Particle</name>
+			<type>Niagara System Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

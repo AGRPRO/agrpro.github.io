@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>DA_AGR_FootstepConfig</class_id>
+	<class_name>DA AGR Footstep Config</class_name>
+	<type>Variable</type>
+	<shorttitle>Sounds</shorttitle>
+	<fulltitle>Sounds</fulltitle>
+	<description>Sounds</description>
+	<imgpath>../img/nd_img_Sounds.png</imgpath>
+	<category></category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Sounds</name>
+			<type>Map of EPhysicalSurface Enums to Sound Cue Object References</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>DA AGR Footstep Config Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name></name>
+			<type>Map of EPhysicalSurface Enums to Sound Cue Object References</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

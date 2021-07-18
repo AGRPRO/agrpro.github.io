@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGR_SoundMaster</id>
+	<display_name>AGR Sound Master</display_name>
+	<nodes>
+		<node>
+			<id>TryTraceFootstep</id>
+			<shorttitle>Try Trace Footstep</shorttitle>
+		</node>
+		<node>
+			<id>TestAllFeetForCollision</id>
+			<shorttitle>Test All Feet for Collision</shorttitle>
+		</node>
+		<node>
+			<id>OverwritePickSurface</id>
+			<shorttitle>Overwrite Pick Surface</shorttitle>
+		</node>
+		<node>
+			<id>OverwriteParticleScale</id>
+			<shorttitle>Overwrite Particle Scale</shorttitle>
+		</node>
+		<node>
+			<id>OverwriteCalcVolume</id>
+			<shorttitle>Overwrite Calc Volume</shorttitle>
+		</node>
+		<node>
+			<id>FootstepEffect</id>
+			<shorttitle>Footstep Effect</shorttitle>
+		</node>
+		<node>
+			<id>CharacterMadeFootstepSound</id>
+			<shorttitle>CharacterMadeFootstepSound (AGR_SoundMaster)</shorttitle>
+		</node>
+		<node>
+			<id>VolumeMultiplier</id>
+			<shorttitle>Get VolumeMultiplier</shorttitle>
+		</node>
+		<node>
+			<id>VolumeMultiplier</id>
+			<shorttitle>Set VolumeMultiplier</shorttitle>
+		</node>
+		<node>
+			<id>SurfaceTraceLength</id>
+			<shorttitle>Get SurfaceTraceLength</shorttitle>
+		</node>
+		<node>
+			<id>SurfaceTraceLength</id>
+			<shorttitle>Set SurfaceTraceLength</shorttitle>
+		</node>
+		<node>
+			<id>FootstepSetup</id>
+			<shorttitle>Get FootstepSetup</shorttitle>
+		</node>
+		<node>
+			<id>FootstepSetup</id>
+			<shorttitle>Set FootstepSetup</shorttitle>
+		</node>
+		<node>
+			<id>FeetDefinitions</id>
+			<shorttitle>Get FeetDefinitions</shorttitle>
+		</node>
+		<node>
+			<id>FeetDefinitions</id>
+			<shorttitle>Set FeetDefinitions</shorttitle>
+		</node>
+		<node>
+			<id>bAutoPlace</id>
+			<shorttitle>Get bAutoPlace</shorttitle>
+		</node>
+		<node>
+			<id>bAutoPlace</id>
+			<shorttitle>Set bAutoPlace</shorttitle>
+		</node>
+		<node>
+			<id>MinTimeCycle</id>
+			<shorttitle>Get MinTimeCycle</shorttitle>
+		</node>
+		<node>
+			<id>MinTimeCycle</id>
+			<shorttitle>Set MinTimeCycle</shorttitle>
+		</node>
+		<node>
+			<id>bAutoVolume</id>
+			<shorttitle>Get bAutoVolume</shorttitle>
+		</node>
+		<node>
+			<id>bAutoVolume</id>
+			<shorttitle>Set bAutoVolume</shorttitle>
+		</node>
+		<node>
+			<id>OwnerAsCharacter</id>
+			<shorttitle>Get OwnerAsCharacter</shorttitle>
+		</node>
+		<node>
+			<id>OwnerAsCharacter</id>
+			<shorttitle>Set OwnerAsCharacter</shorttitle>
+		</node>
+		<node>
+			<id>AutoFootstepsArray</id>
+			<shorttitle>Get AutoFootstepsArray</shorttitle>
+		</node>
+		<node>
+			<id>AutoFootstepsArray</id>
+			<shorttitle>Set AutoFootstepsArray</shorttitle>
+		</node>
+		<node>
+			<id>PreviousFoot</id>
+			<shorttitle>Get PreviousFoot</shorttitle>
+		</node>
+		<node>
+			<id>PreviousFoot</id>
+			<shorttitle>Set PreviousFoot</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Get bDebug</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Set bDebug</shorttitle>
+		</node>
+		<node>
+			<id>bTraceComplex</id>
+			<shorttitle>Get bTraceComplex</shorttitle>
+		</node>
+		<node>
+			<id>bTraceComplex</id>
+			<shorttitle>Set bTraceComplex</shorttitle>
+		</node>
+		<node>
+			<id>TraceChannel</id>
+			<shorttitle>Get TraceChannel</shorttitle>
+		</node>
+		<node>
+			<id>TraceChannel</id>
+			<shorttitle>Set TraceChannel</shorttitle>
+		</node>
+	</nodes>
+</root>

@@ -4,6 +4,10 @@
   link: '/'
 - label: Discord Server
   link: https://discord.gg/KmtpmxfVb6
+- label: Getting Started
+  items:
+    - label: 'Quick Start'
+      link: '/quick-start'
 - label: More
   items:
     - label: Changelog

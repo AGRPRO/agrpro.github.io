@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<display_name>AGR Pro</display_name>
+	<classes>
+		<class>
+			<id>AGR_Footstep_Notify</id>
+			<display_name>AGR Footstep Notify</display_name>
+		</class>
+		<class>
+			<id>AGR_SoundMaster</id>
+			<display_name>AGR Sound Master</display_name>
+		</class>
+		<class>
+			<id>AGRAnimMasterComponent</id>
+			<display_name>AGRAnim Master Component</display_name>
+		</class>
+		<class>
+			<id>AGRCharacter</id>
+			<display_name>AGRCharacter</display_name>
+		</class>
+		<class>
+			<id>AGRCoreAnimInstance</id>
+			<display_name>AGRCore Anim Instance</display_name>
+		</class>
+		<class>
+			<id>AGRUWDebugWidget</id>
+			<display_name>AGRUWDebug Widget</display_name>
+		</class>
+		<class>
+			<id>DA_AGR_FootstepConfig</id>
+			<display_name>DA AGR Footstep Config</display_name>
+		</class>
+	</classes>
+</root>

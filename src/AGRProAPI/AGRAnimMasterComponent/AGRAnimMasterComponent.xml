@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGRAnimMasterComponent</id>
+	<display_name>AGRAnim Master Component</display_name>
+	<nodes>
+		<node>
+			<id>TurnInPlaceTick</id>
+			<shorttitle>Turn in Place Tick</shorttitle>
+		</node>
+		<node>
+			<id>SetupRotation</id>
+			<shorttitle>Setup Rotation</shorttitle>
+		</node>
+		<node>
+			<id>SetupFpp</id>
+			<shorttitle>Setup Fpp</shorttitle>
+		</node>
+		<node>
+			<id>SetupBasePose</id>
+			<shorttitle>Setup Base Pose</shorttitle>
+		</node>
+		<node>
+			<id>SetupAimOffset</id>
+			<shorttitle>Setup Aim Offset</shorttitle>
+		</node>
+		<node>
+			<id>SetOverlayPose</id>
+			<shorttitle>Set Overlay Pose</shorttitle>
+		</node>
+		<node>
+			<id>RemoveTag</id>
+			<shorttitle>Remove Tag</shorttitle>
+		</node>
+		<node>
+			<id>AimTick</id>
+			<shorttitle>Aim Tick</shorttitle>
+		</node>
+		<node>
+			<id>AddTag</id>
+			<shorttitle>Add Tag</shorttitle>
+		</node>
+		<node>
+			<id>BasePose</id>
+			<shorttitle>Get BasePose</shorttitle>
+		</node>
+		<node>
+			<id>BasePose</id>
+			<shorttitle>Set BasePose</shorttitle>
+		</node>
+		<node>
+			<id>OverlayPose</id>
+			<shorttitle>Get OverlayPose</shorttitle>
+		</node>
+		<node>
+			<id>OverlayPose</id>
+			<shorttitle>Set OverlayPose</shorttitle>
+		</node>
+		<node>
+			<id>bFirstPerson</id>
+			<shorttitle>Get bFirstPerson</shorttitle>
+		</node>
+		<node>
+			<id>bFirstPerson</id>
+			<shorttitle>Set bFirstPerson</shorttitle>
+		</node>
+		<node>
+			<id>AimOffset</id>
+			<shorttitle>Get AimOffset</shorttitle>
+		</node>
+		<node>
+			<id>AimOffset</id>
+			<shorttitle>Set AimOffset</shorttitle>
+		</node>
+		<node>
+			<id>LookAtLocation</id>
+			<shorttitle>Get LookAtLocation</shorttitle>
+		</node>
+		<node>
+			<id>LookAtLocation</id>
+			<shorttitle>Set LookAtLocation</shorttitle>
+		</node>
+		<node>
+			<id>AnimModTags</id>
+			<shorttitle>Get AnimModTags</shorttitle>
+		</node>
+		<node>
+			<id>AnimModTags</id>
+			<shorttitle>Set AnimModTags</shorttitle>
+		</node>
+		<node>
+			<id>RotationMethod</id>
+			<shorttitle>Get RotationMethod</shorttitle>
+		</node>
+		<node>
+			<id>RotationMethod</id>
+			<shorttitle>Set RotationMethod</shorttitle>
+		</node>
+		<node>
+			<id>RotationSpeed</id>
+			<shorttitle>Get RotationSpeed</shorttitle>
+		</node>
+		<node>
+			<id>RotationSpeed</id>
+			<shorttitle>Set RotationSpeed</shorttitle>
+		</node>
+		<node>
+			<id>TurnStartAngle</id>
+			<shorttitle>Get TurnStartAngle</shorttitle>
+		</node>
+		<node>
+			<id>TurnStartAngle</id>
+			<shorttitle>Set TurnStartAngle</shorttitle>
+		</node>
+		<node>
+			<id>TurnStopTolerance</id>
+			<shorttitle>Get TurnStopTolerance</shorttitle>
+		</node>
+		<node>
+			<id>TurnStopTolerance</id>
+			<shorttitle>Set TurnStopTolerance</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetType</id>
+			<shorttitle>Get AimOffsetType</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetType</id>
+			<shorttitle>Set AimOffsetType</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetBehavior</id>
+			<shorttitle>Get AimOffsetBehavior</shorttitle>
+		</node>
+		<node>
+			<id>AimOffsetBehavior</id>
+			<shorttitle>Set AimOffsetBehavior</shorttitle>
+		</node>
+		<node>
+			<id>AimClamp</id>
+			<shorttitle>Get AimClamp</shorttitle>
+		</node>
+		<node>
+			<id>AimClamp</id>
+			<shorttitle>Set AimClamp</shorttitle>
+		</node>
+		<node>
+			<id>CameraBased</id>
+			<shorttitle>Get CameraBased</shorttitle>
+		</node>
+		<node>
+			<id>CameraBased</id>
+			<shorttitle>Set CameraBased</shorttitle>
+		</node>
+		<node>
+			<id>AimSocketName</id>
+			<shorttitle>Get AimSocketName</shorttitle>
+		</node>
+		<node>
+			<id>AimSocketName</id>
+			<shorttitle>Set AimSocketName</shorttitle>
+		</node>
+		<node>
+			<id>LookAtSocketName</id>
+			<shorttitle>Get LookAtSocketName</shorttitle>
+		</node>
+		<node>
+			<id>LookAtSocketName</id>
+			<shorttitle>Set LookAtSocketName</shorttitle>
+		</node>
+		<node>
+			<id>TraceChannel</id>
+			<shorttitle>Get TraceChannel</shorttitle>
+		</node>
+		<node>
+			<id>TraceChannel</id>
+			<shorttitle>Set TraceChannel</shorttitle>
+		</node>
+		<node>
+			<id>OwningCharacter</id>
+			<shorttitle>Get OwningCharacter</shorttitle>
+		</node>
+		<node>
+			<id>OwningCharacter</id>
+			<shorttitle>Set OwningCharacter</shorttitle>
+		</node>
+		<node>
+			<id>OwnerMovementComponent</id>
+			<shorttitle>Get OwnerMovementComponent</shorttitle>
+		</node>
+		<node>
+			<id>OwnerMovementComponent</id>
+			<shorttitle>Set OwnerMovementComponent</shorttitle>
+		</node>
+		<node>
+			<id>OnFirstPerson</id>
+			<shorttitle>OnFirstPerson (AGRAnimMasterComponent)</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Get bDebug</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Set bDebug</shorttitle>
+		</node>
+	</nodes>
+</root>

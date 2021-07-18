@@ -1,12 +1,12 @@
-const fs = require("fs-extra")
-const path = require("path")
-const rimraf = require("rimraf")
-const klaw = require("klaw")
-const through2 = require('through2')
-const { HOST_PROJECT } = require("./gatsby-config")
+const fs = require(`fs-extra`)
+const path = require(`path`)
+const rimraf = require(`rimraf`)
+const klaw = require(`klaw`)
+const through2 = require(`through2`)
+const { HOST_PROJECT } = require(`../config`)
 
-const API_FOLDER = "src/AGRProAPI"
-const generatedXmlDir = path.join(HOST_PROJECT, "Intermediate/KantanDocGen/AGR Pro")
+const API_FOLDER = `src/AGRProAPI`
+const generatedXmlDir = path.join(HOST_PROJECT, `Intermediate/KantanDocGen/AGR Pro`)
 
 if (!fs.existsSync(generatedXmlDir)) {
     console.error(`Directory doesn't exist: ${generatedXmlDir}`)
@@ -19,7 +19,7 @@ const excludeDirFilter = through2.obj(function (item, enc, next) {
 })
 
 const removeCdata = async (dir) => {
-    console.log("Removing CDATA in xml files in", dir);
+    console.log(`Removing CDATA in xml files in`, dir);
 
     // for await (const file of klaw(dir)) {
     for await (const file of klaw(dir)) {
@@ -30,24 +30,24 @@ const removeCdata = async (dir) => {
         }
 
         const ext = path.extname(filepath)
-        if (ext !== ".xml") {
+        if (ext !== `.xml`) {
             continue;
         }
 
         const basename = path.basename(filepath)
         const dirname = path.relative(dir, filepath)
-        const content = await fs.readFile(filepath, "utf8")
-        const newContent = content.replace(/<!\[CDATA\[/g, "").replace(/\]\]>/g, "");
+        const content = await fs.readFile(filepath, `utf8`)
+        const newContent = content.replace(/<!\[CDATA\[/g, ``).replace(/\]\]>/g, ``);
 
         await fs.writeFile(filepath, newContent)
     }
 }
 
 const run = async () => {
-    const docsDir = path.join(__dirname, "..", API_FOLDER)
+    const docsDir = path.join(__dirname, `..`, API_FOLDER)
 
     // rm
-    console.log("Remove dir", docsDir)
+    console.log(`Remove dir`, docsDir)
     await fs.remove(docsDir)
 
     // copy
