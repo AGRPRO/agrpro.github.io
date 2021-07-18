@@ -8,7 +8,7 @@ module.exports = {
     defaultTitle: `AGR Pro`,
     siteTitleShort: `AGR Pro`,
     siteDescription: `Documentation for AGR Pro`,
-    siteUrl: `https://mklabs.github.io/agrpro`,
+    siteUrl: `https://mklabs.github.io/AGRPro-documentation`,
     siteAuthor: `https://mklabs.github.io`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -107,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://mklabs.github.io/agrpro`,
+        siteUrl: `https://mklabs.github.io/AGRPro-documentation`,
       },
     },
     `gatsby-plugin-offline`,
