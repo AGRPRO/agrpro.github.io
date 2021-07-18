@@ -1,14 +1,17 @@
 const path = require(`path`)
 
 module.exports = {
+
+  HOST_PROJECT: `C:\\dev\\UnrealProjects\\AGRPro`,
+
   // pathPrefix: `/`,
 
   siteMetadata: {
-    siteTitle: `GAS Companion Docs`,
-    defaultTitle: `GAS Companion`,
-    siteTitleShort: `GAS Companion`,
-    siteDescription: `Documentation for GAS Companion: a Gameplay Ability System Starter and Template`,
-    siteUrl: `https://gascompanion.github.io`,
+    siteTitle: `AGR Pro Docs`,
+    defaultTitle: `AGR Pro`,
+    siteTitleShort: `AGR Pro`,
+    siteDescription: `Documentation for AGR Pro`,
+    siteUrl: `https://mklabs.github.io/agrpro`,
     siteAuthor: `https://mklabs.github.io`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
@@ -22,7 +25,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/GASCompanion/GASCompanion-Documentation`,
+        repositoryUrl: `https://github.com/mklabs/AGRPro-documentation`,
         branch: 'dev',
         baseDir: ``,
         withMdx: false,
@@ -31,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GAS Companion Documentation`,
-        short_name: `GAS Companion Docs`,
+        name: `AGR Pro Documentation`,
+        short_name: `AGR Pro Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -44,7 +47,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `api`,
-        path: path.join(__dirname, `src/GASCompanionAPI`),
+        path: path.join(__dirname, `src/AGRProAPI`),
       },
     },
 
@@ -99,7 +102,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://gascompanion.github.io`,
+        siteUrl: `https://mklabs.github.io/agrpro`,
       },
     },
     `gatsby-plugin-offline`,

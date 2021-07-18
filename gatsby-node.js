@@ -1,7 +1,7 @@
 const parseXml = require(`xml-parser`)
 const p = require(`path`)
 const _ = require(`lodash`)
-const debug = require("debug")("gsc:gatsby-node")
+const debug = require("debug")("agr:gatsby-node")
 const slugify = require(`./src/utils/slugify`)
 
 const apiIndexTemplate = require.resolve(`./src/templates/api-index-template`)

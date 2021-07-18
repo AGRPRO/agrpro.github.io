@@ -38,7 +38,7 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "dev": "gatsby develop",
+    "dev": "set DEBUG=agr:* gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "update-api": "node scripts/api.js"
