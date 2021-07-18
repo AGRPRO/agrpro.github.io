@@ -4,3 +4,7 @@
   link: '/'
 - label: Discord Server
   link: https://discord.gg/KmtpmxfVb6
+- label: More
+  items:
+    - label: Changelog
+      link: /changelog
