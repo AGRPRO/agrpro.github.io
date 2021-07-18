@@ -1,40 +1,28 @@
-## Gatsby Starter: Rocket Docs
+## AGRPro documentation
 
-Plugin: [@rocketseat/gatsby-theme-docs fork](https://github.com/mklabs/gatsby-themes/tree/main/%40rocketseat/gatsby-theme-docs)
+This repository holds the source files used to generate AGRPro plugin documentation.
 
-## Docs todo
+It uses Gatsby to generate a static website based on [@rocketseat/gatsby-theme-docs fork](https://github.com/mklabs/gatsby-themes/tree/main/%40rocketseat/gatsby-theme-docs) gatsby plugin and theme.
 
-2.x
+The API generated from the plugin source for all Blueprint exposed UPROPERTIes and UFUNCTIONs is done using [KantanDocGenPlugin](https://github.com/kamrann/KantanDocGenPlugin), but using a [fork](https://github.com/mklabs/KantanDocGenPlugin) of it to accommodate our need to support UPROPERTY for variables and BlueprintAssignable events for components.
 
-- [x] Rework Getting Started Section: Getting Started > Install, Configuration, Quick Start, LaunchPad Window
-- [x] Add LaunchPad page
-- [x] Update getting started page with core component
-- [x] Update AttributeSet events
-- [x] Add Projectile ability documentation
-- [ ] Redo "Working with UI" page
-  - [x] Small update
-- [ ] FAQ / Migration guide
-- [x] Update Cheat Manager page
-- [x] Update Configuration page
-- [ ] Add Gameplay Effect and Abilities definitions page
-  - [x] Started
+## Install
 
-1.x
+To run the website locally, you'll need [nodejs](https://nodejs.org/en/) installed on your machine. Once done, run:
 
-- [x] Ability Queue System
-- [x] Ignore Ability Cost
-- [x] Configuration
-- [x] Cheat Manager
-- [x] Working with AI
-- [x] Working with UI
-- [ ] Logging
-- [ ] Ability Overview
-  - [ ] Gameplay Effect Container
-  - [ ] OnAbilityEnded Delegate
-  - [ ] Tasks
-- [ ] Character Overview
-  - [ ] Startup Attributes, Effects and Abilities
-  - [ ] Attribute Getters
-  - [ ] Events
-  - [ ] ASC helpers (ability activation, gameplay tags check)
+```
+npm install
+npm run dev
+```
 
+## Generate API documentation
+
+First, you'll need to install [KantanDocGenPlugin fork](https://github.com/mklabs/KantanDocGenPlugin) in your local AGRPro host project Plugins' folder.
+
+From within your development project for AGR Pro
+
+```
+git clone https://github.com/mklabs/KantanDocGenPlugin.git Plugins/KantanDocGenPlugin
+```
+
+Then open up the project and enable KantanDocGenPlugin plugin, then recompile the project (or restart the editor directly, on first clone Unreal will ask you to build the modules when the plugin is enabled)

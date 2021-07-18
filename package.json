@@ -1,8 +1,8 @@
 {
-  "name": "gas-companion-docs",
+  "name": "AGRPro-docs",
   "private": true,
   "version": "1.0.0",
-  "description": "Documentation for GAS Companion",
+  "description": "Documentation for AGRPro",
   "author": "Mickael Daniel <mklabs>",
   "license": "MIT",
   "starter-name": "gatsby-starter-rocket-docs",
@@ -38,7 +38,7 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "develop": "set DEBUG=gsc:* & gatsby develop",
+    "dev": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "update-api": "node scripts/api.js"
