@@ -3,10 +3,10 @@ const path = require("path")
 const rimraf = require("rimraf")
 const klaw = require("klaw")
 const through2 = require('through2')
+const { HOST_PROJECT } = require("./gatsby-config")
 
-const API_FOLDER = "src/GASCompanionAPI"
-const HOST_PROJECT = "C:\\dev\\UnrealProjects\\GASComp_Dev"
-const generatedXmlDir = path.join(HOST_PROJECT, "Intermediate/KantanDocGen/GAS Companion")
+const API_FOLDER = "src/AGRProAPI"
+const generatedXmlDir = path.join(HOST_PROJECT, "Intermediate/KantanDocGen/AGR Pro")
 
 if (!fs.existsSync(generatedXmlDir)) {
     console.error(`Directory doesn't exist: ${generatedXmlDir}`)
