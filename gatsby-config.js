@@ -1,7 +1,7 @@
 const path = require(`path`)
 
 module.exports = {
-  // pathPrefix: `/`,
+  pathPrefix: `/AGRPro-documentation`,
 
   siteMetadata: {
     siteTitle: `AGR Pro Docs`,
