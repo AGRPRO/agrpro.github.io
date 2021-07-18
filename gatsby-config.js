@@ -10,7 +10,7 @@ module.exports = {
     siteDescription: `Documentation for AGR Pro`,
     siteUrl: `https://mklabs.github.io/AGRPro-documentation`,
     siteAuthor: `https://mklabs.github.io`,
-    siteImage: `/banner.png`,
+    siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
     basePath: `/`,
