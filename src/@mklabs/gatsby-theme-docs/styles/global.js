@@ -120,7 +120,7 @@ export default function GlobalStyle() {
           vertical-align: middle;
           line-height: 1;
           padding: 0.2em;
-          background-color: #cdd9e526;
+          background-color: ${theme.colors.header};
           color: rgba(248, 248, 242);
           font-size: 14px;
           border-radius: 3px;
