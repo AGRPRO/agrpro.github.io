@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGR_EquipmentManager</id>
+	<display_name>AGR Equipment Manager</display_name>
+	<nodes>
+		<node>
+			<id>UnequipItemFromSlot</id>
+			<shorttitle>Unequip Item from Slot</shorttitle>
+		</node>
+		<node>
+			<id>UnequipByReference</id>
+			<shorttitle>Unequip by Reference</shorttitle>
+		</node>
+		<node>
+			<id>SetupDefineSlots</id>
+			<shorttitle>Setup Define Slots</shorttitle>
+		</node>
+		<node>
+			<id>SaveSoftReference</id>
+			<shorttitle>Save Soft Reference</shorttitle>
+		</node>
+		<node>
+			<id>GetSoftReference</id>
+			<shorttitle>Get Soft Reference</shorttitle>
+		</node>
+		<node>
+			<id>GetItemInSlot</id>
+			<shorttitle>Get Item in Slot</shorttitle>
+		</node>
+		<node>
+			<id>GetAllItems</id>
+			<shorttitle>Get All Items</shorttitle>
+		</node>
+		<node>
+			<id>EquipItemInSlot</id>
+			<shorttitle>Equip Item in Slot</shorttitle>
+		</node>
+		<node>
+			<id>EquipmentList</id>
+			<shorttitle>Get EquipmentList</shorttitle>
+		</node>
+		<node>
+			<id>EquipmentList</id>
+			<shorttitle>Set EquipmentList</shorttitle>
+		</node>
+		<node>
+			<id>References</id>
+			<shorttitle>Get References</shorttitle>
+		</node>
+		<node>
+			<id>References</id>
+			<shorttitle>Set References</shorttitle>
+		</node>
+	</nodes>
+</root>

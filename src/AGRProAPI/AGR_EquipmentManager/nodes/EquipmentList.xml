@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_EquipmentManager</class_id>
+	<class_name>AGR Equipment Manager</class_name>
+	<type>Variable</type>
+	<shorttitle>EquipmentList</shorttitle>
+	<fulltitle>EquipmentList</fulltitle>
+	<description>Equipment List</description>
+	<imgpath>../img/nd_img_EquipmentList.png</imgpath>
+	<category></category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Equipment List</name>
+			<type>Array of Equipment Structures</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Equipment Manager Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name></name>
+			<type>Array of Equipment Structures</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

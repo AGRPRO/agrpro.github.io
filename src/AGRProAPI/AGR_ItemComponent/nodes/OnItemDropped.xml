@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_ItemComponent</class_id>
+	<class_name>AGR Item Component</class_name>
+	<type>Node</type>
+	<shorttitle>OnItemDropped (AGR_ItemComponent)</shorttitle>
+	<fulltitle>OnItemDropped (AGR_ItemComponent)</fulltitle>
+	<description>On Item Dropped</description>
+	<imgpath>../img/nd_img_OnItemDropped.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

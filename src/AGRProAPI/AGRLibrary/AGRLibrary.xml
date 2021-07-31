@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGRLibrary</id>
+	<display_name>AGRLibrary</display_name>
+	<nodes>
+		<node>
+			<id>K2_GetItemComponent</id>
+			<shorttitle>GetItemComponent</shorttitle>
+		</node>
+		<node>
+			<id>GetSound</id>
+			<shorttitle>Get Sound</shorttitle>
+		</node>
+		<node>
+			<id>GetInventory</id>
+			<shorttitle>Get Inventory</shorttitle>
+		</node>
+		<node>
+			<id>GetEquipment</id>
+			<shorttitle>Get Equipment</shorttitle>
+		</node>
+		<node>
+			<id>GetAnimationMaster</id>
+			<shorttitle>Get Animation Master</shorttitle>
+		</node>
+	</nodes>
+</root>

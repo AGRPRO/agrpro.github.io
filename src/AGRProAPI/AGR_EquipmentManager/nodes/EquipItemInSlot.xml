@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_EquipmentManager</class_id>
+	<class_name>AGR Equipment Manager</class_name>
+	<type>Node</type>
+	<shorttitle>Equip Item in Slot</shorttitle>
+	<fulltitle>Equip Item in Slot</fulltitle>
+	<description>Equips an item in the specific slot.
+
+Before executing equip action, the following conditions will be checked:
+1) Slot exists
+2) New item is an item
+3) Tag is acceptable in this slot</description>
+	<imgpath>../img/nd_img_EquipItemInSlot.png</imgpath>
+	<category>AGR</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Equipment Manager Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Slot</name>
+			<type>Name</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Previous Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>New Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Success</name>
+			<type>Boolean</type>
+			<description>Equips an item in the specific slot.
+
+Before executing equip action, the following conditions will be checked:
+1) Slot exists
+2) New item is an item
+3) Tag is acceptable in this slot</description>
+		</param>
+	</outputs>
+</root>

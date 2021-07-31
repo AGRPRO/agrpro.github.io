@@ -13,6 +13,10 @@
 			<shorttitle>Setup Rotation</shorttitle>
 		</node>
 		<node>
+			<id>SetupOverlayPose</id>
+			<shorttitle>Setup Overlay Pose</shorttitle>
+		</node>
+		<node>
 			<id>SetupFpp</id>
 			<shorttitle>Setup Fpp</shorttitle>
 		</node>
@@ -23,10 +27,6 @@
 		<node>
 			<id>SetupAimOffset</id>
 			<shorttitle>Setup Aim Offset</shorttitle>
-		</node>
-		<node>
-			<id>SetOverlayPose</id>
-			<shorttitle>Set Overlay Pose</shorttitle>
 		</node>
 		<node>
 			<id>RemoveTag</id>

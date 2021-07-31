@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGR_ItemComponent</id>
+	<display_name>AGR Item Component</display_name>
+	<nodes>
+		<node>
+			<id>UseItem</id>
+			<shorttitle>Use Item</shorttitle>
+		</node>
+		<node>
+			<id>PickUpItem</id>
+			<shorttitle>Pick Up Item</shorttitle>
+		</node>
+		<node>
+			<id>DropItem</id>
+			<shorttitle>Drop Item</shorttitle>
+		</node>
+		<node>
+			<id>ItemId</id>
+			<shorttitle>Get ItemId</shorttitle>
+		</node>
+		<node>
+			<id>ItemId</id>
+			<shorttitle>Set ItemId</shorttitle>
+		</node>
+		<node>
+			<id>InventoryId</id>
+			<shorttitle>Get InventoryId</shorttitle>
+		</node>
+		<node>
+			<id>InventoryId</id>
+			<shorttitle>Set InventoryId</shorttitle>
+		</node>
+		<node>
+			<id>OwnerId</id>
+			<shorttitle>Get OwnerId</shorttitle>
+		</node>
+		<node>
+			<id>OwnerId</id>
+			<shorttitle>Set OwnerId</shorttitle>
+		</node>
+		<node>
+			<id>bStackable</id>
+			<shorttitle>Get bStackable</shorttitle>
+		</node>
+		<node>
+			<id>bStackable</id>
+			<shorttitle>Set bStackable</shorttitle>
+		</node>
+		<node>
+			<id>MaxStack</id>
+			<shorttitle>Get MaxStack</shorttitle>
+		</node>
+		<node>
+			<id>MaxStack</id>
+			<shorttitle>Set MaxStack</shorttitle>
+		</node>
+		<node>
+			<id>CurrentStack</id>
+			<shorttitle>Get CurrentStack</shorttitle>
+		</node>
+		<node>
+			<id>CurrentStack</id>
+			<shorttitle>Set CurrentStack</shorttitle>
+		</node>
+		<node>
+			<id>Weight</id>
+			<shorttitle>Get Weight</shorttitle>
+		</node>
+		<node>
+			<id>Weight</id>
+			<shorttitle>Set Weight</shorttitle>
+		</node>
+		<node>
+			<id>Volume</id>
+			<shorttitle>Get Volume</shorttitle>
+		</node>
+		<node>
+			<id>Volume</id>
+			<shorttitle>Set Volume</shorttitle>
+		</node>
+		<node>
+			<id>SpaceSlots</id>
+			<shorttitle>Get SpaceSlots</shorttitle>
+		</node>
+		<node>
+			<id>SpaceSlots</id>
+			<shorttitle>Set SpaceSlots</shorttitle>
+		</node>
+		<node>
+			<id>ItemName</id>
+			<shorttitle>Get ItemName</shorttitle>
+		</node>
+		<node>
+			<id>ItemName</id>
+			<shorttitle>Set ItemName</shorttitle>
+		</node>
+		<node>
+			<id>bSimulateWhenDropped</id>
+			<shorttitle>Get bSimulateWhenDropped</shorttitle>
+		</node>
+		<node>
+			<id>bSimulateWhenDropped</id>
+			<shorttitle>Set bSimulateWhenDropped</shorttitle>
+		</node>
+		<node>
+			<id>ItemTagSlotType</id>
+			<shorttitle>Get ItemTagSlotType</shorttitle>
+		</node>
+		<node>
+			<id>ItemTagSlotType</id>
+			<shorttitle>Set ItemTagSlotType</shorttitle>
+		</node>
+		<node>
+			<id>OnPickup</id>
+			<shorttitle>OnPickup (AGR_ItemComponent)</shorttitle>
+		</node>
+		<node>
+			<id>OnHiddenShown</id>
+			<shorttitle>OnHiddenShown (AGR_ItemComponent)</shorttitle>
+		</node>
+		<node>
+			<id>OnItemDropped</id>
+			<shorttitle>OnItemDropped (AGR_ItemComponent)</shorttitle>
+		</node>
+		<node>
+			<id>OnItemUsed</id>
+			<shorttitle>OnItemUsed (AGR_ItemComponent)</shorttitle>
+		</node>
+		<node>
+			<id>OnEquip</id>
+			<shorttitle>OnEquip (AGR_ItemComponent)</shorttitle>
+		</node>
+		<node>
+			<id>OnUnequip</id>
+			<shorttitle>OnUnequip (AGR_ItemComponent)</shorttitle>
+		</node>
+	</nodes>
+</root>

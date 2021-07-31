@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_ItemComponent</class_id>
+	<class_name>AGR Item Component</class_name>
+	<type>Node</type>
+	<shorttitle>OnItemUsed (AGR_ItemComponent)</shorttitle>
+	<fulltitle>OnItemUsed (AGR_ItemComponent)</fulltitle>
+	<description>On Item Used</description>
+	<imgpath>../img/nd_img_OnItemUsed.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>User</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

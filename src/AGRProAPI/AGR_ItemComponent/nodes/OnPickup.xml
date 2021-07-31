@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_ItemComponent</class_id>
+	<class_name>AGR Item Component</class_name>
+	<type>Node</type>
+	<shorttitle>OnPickup (AGR_ItemComponent)</shorttitle>
+	<fulltitle>OnPickup (AGR_ItemComponent)</fulltitle>
+	<description>On Pickup</description>
+	<imgpath>../img/nd_img_OnPickup.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Inventory</name>
+			<type>AGR Inventory Manager Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

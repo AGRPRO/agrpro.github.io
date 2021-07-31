@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_EquipmentManager</class_id>
+	<class_name>AGR Equipment Manager</class_name>
+	<type>Node</type>
+	<shorttitle>Get Item in Slot</shorttitle>
+	<fulltitle>Get Item in Slot</fulltitle>
+	<description>Get Item in Slot</description>
+	<imgpath>../img/nd_img_GetItemInSlot.png</imgpath>
+	<category>AGR</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Equipment Manager Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Slot</name>
+			<type>Name</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Success</name>
+			<type>Boolean</type>
+			<description>Get Item in Slot</description>
+		</param>
+	</outputs>
+</root>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<id>AGR_InventoryManager</id>
+	<display_name>AGR Inventory Manager</display_name>
+	<nodes>
+		<node>
+			<id>RemoveItemsOfClass</id>
+			<shorttitle>Remove Items Of Class</shorttitle>
+		</node>
+		<node>
+			<id>OverwriteId</id>
+			<shorttitle>Overwrite Id</shorttitle>
+		</node>
+		<node>
+			<id>HasExactItem</id>
+			<shorttitle>Has Exact Item</shorttitle>
+		</node>
+		<node>
+			<id>HasEnoughItems</id>
+			<shorttitle>Has Enough Items</shorttitle>
+		</node>
+		<node>
+			<id>GetAllItemsOfTagSlotType</id>
+			<shorttitle>Get All Items Of Tag Slot Type</shorttitle>
+		</node>
+		<node>
+			<id>GetAllItemsOfClass</id>
+			<shorttitle>Get All Items Of Class</shorttitle>
+		</node>
+		<node>
+			<id>GetAllItems</id>
+			<shorttitle>Get All Items</shorttitle>
+		</node>
+		<node>
+			<id>AddItemToInventoryDirectly</id>
+			<shorttitle>Add Item to Inventory Directly</shorttitle>
+		</node>
+		<node>
+			<id>AddItemsOfClass</id>
+			<shorttitle>Add Items Of Class</shorttitle>
+		</node>
+		<node>
+			<id>InventoryId</id>
+			<shorttitle>Get InventoryId</shorttitle>
+		</node>
+		<node>
+			<id>InventoryId</id>
+			<shorttitle>Set InventoryId</shorttitle>
+		</node>
+		<node>
+			<id>InventoryStorage</id>
+			<shorttitle>Get InventoryStorage</shorttitle>
+		</node>
+		<node>
+			<id>InventoryStorage</id>
+			<shorttitle>Set InventoryStorage</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Get bDebug</shorttitle>
+		</node>
+		<node>
+			<id>bDebug</id>
+			<shorttitle>Set bDebug</shorttitle>
+		</node>
+	</nodes>
+</root>

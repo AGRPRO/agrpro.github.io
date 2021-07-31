@@ -41,5 +41,10 @@
 			<type>Niagara System Object Reference</type>
 			<description></description>
 		</param>
+		<param>
+			<name>Key</name>
+			<type>Name</type>
+			<description></description>
+		</param>
 	</outputs>
 </root>

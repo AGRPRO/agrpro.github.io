@@ -3,8 +3,20 @@
 	<display_name>AGR Pro</display_name>
 	<classes>
 		<class>
+			<id>AGR_EquipmentManager</id>
+			<display_name>AGR Equipment Manager</display_name>
+		</class>
+		<class>
 			<id>AGR_Footstep_Notify</id>
 			<display_name>AGR Footstep Notify</display_name>
+		</class>
+		<class>
+			<id>AGR_InventoryManager</id>
+			<display_name>AGR Inventory Manager</display_name>
+		</class>
+		<class>
+			<id>AGR_ItemComponent</id>
+			<display_name>AGR Item Component</display_name>
 		</class>
 		<class>
 			<id>AGR_SoundMaster</id>
@@ -21,6 +33,10 @@
 		<class>
 			<id>AGRCoreAnimInstance</id>
 			<display_name>AGRCore Anim Instance</display_name>
+		</class>
+		<class>
+			<id>AGRLibrary</id>
+			<display_name>AGRLibrary</display_name>
 		</class>
 		<class>
 			<id>AGRUWDebugWidget</id>

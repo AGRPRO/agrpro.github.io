@@ -165,8 +165,7 @@ export default function GlobalStyle() {
         hr {
           border: 0;
           height: 0;
-          border-top: 1px solid rgba(0, 0, 0, 0.1);
-          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+          border-bottom: 1px solid ${theme.colors.title};
         }
 
         table {
@@ -180,7 +179,7 @@ export default function GlobalStyle() {
           td {
             margin: 0;
             color: ${theme.colors.text};
-            background-color: ${theme.colors.shape};
+            background-color: ${theme.colors.background};
             border: solid 1px ${theme.colors.shape};
             border-style: solid none;
             padding: 12px;

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_InventoryManager</class_id>
+	<class_name>AGR Inventory Manager</class_name>
+	<type>Node</type>
+	<shorttitle>Add Item to Inventory Directly</shorttitle>
+	<fulltitle>Add Item to Inventory Directly</fulltitle>
+	<description>Add Item to Inventory Directly</description>
+	<imgpath>../img/nd_img_AddItemToInventoryDirectly.png</imgpath>
+	<category>AGR</category>
+	<inputs>
+		<param>
+			<name>In</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Target</name>
+			<type>AGR Inventory Manager Object Reference</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+	</inputs>
+	<outputs>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 	<docs_name>AGR Pro</docs_name>
-	<class_id>AGRAnimMasterComponent</class_id>
-	<class_name>AGRAnim Master Component</class_name>
+	<class_id>AGR_ItemComponent</class_id>
+	<class_name>AGR Item Component</class_name>
 	<type>Node</type>
-	<shorttitle>Set Overlay Pose</shorttitle>
-	<fulltitle>Set Overlay Pose</fulltitle>
-	<description>Set Overlay Pose</description>
-	<imgpath>../img/nd_img_SetOverlayPose.png</imgpath>
-	<category>AGR|Poses</category>
+	<shorttitle>Use Item</shorttitle>
+	<fulltitle>Use Item</fulltitle>
+	<description>Use Item</description>
+	<imgpath>../img/nd_img_UseItem.png</imgpath>
+	<category>AGR</category>
 	<inputs>
 		<param>
 			<name>In</name>
@@ -17,12 +17,12 @@
 		</param>
 		<param>
 			<name>Target</name>
-			<type>AGRAnim Master Component Object Reference</type>
+			<type>AGR Item Component Object Reference</type>
 			<description></description>
 		</param>
 		<param>
-			<name>In Overlay Pose</name>
-			<type>Gameplay Tag Structure</type>
+			<name>User</name>
+			<type>Actor Object Reference</type>
 			<description></description>
 		</param>
 	</inputs>
