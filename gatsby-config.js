@@ -1,15 +1,15 @@
 const path = require(`path`)
 
 module.exports = {
-  pathPrefix: `/AGRPro-documentation`,
+  // pathPrefix: `/`,
 
   siteMetadata: {
     siteTitle: `AGR Pro Docs`,
     defaultTitle: `AGR Pro`,
     siteTitleShort: `AGR Pro`,
     siteDescription: `Documentation for AGR Pro`,
-    siteUrl: `https://mklabs.github.io/AGRPro-documentation`,
-    siteAuthor: `https://mklabs.github.io`,
+    siteUrl: `https://agrpro.github.io`,
+    siteAuthor: `https://agrpro.github.io`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -22,7 +22,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/mklabs/AGRPro-documentation`,
+        repositoryUrl: `https://github.com/AGRPRO/agrpro.github.io`,
         branch: 'dev',
         baseDir: ``,
         withMdx: false,
@@ -107,7 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://mklabs.github.io/AGRPro-documentation`,
+        siteUrl: `https://agrpro.github.io/AGRPro-documentation`,
       },
     },
     `gatsby-plugin-offline`,
