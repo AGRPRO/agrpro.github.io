@@ -17,12 +17,12 @@
 			<shorttitle>Setup Define Slots</shorttitle>
 		</node>
 		<node>
-			<id>SaveSoftReference</id>
-			<shorttitle>Save Soft Reference</shorttitle>
+			<id>SaveShortcutReference</id>
+			<shorttitle>Save Shortcut Reference</shorttitle>
 		</node>
 		<node>
-			<id>GetSoftReference</id>
-			<shorttitle>Get Soft Reference</shorttitle>
+			<id>GetShortcutReference</id>
+			<shorttitle>Get Shortcut Reference</shorttitle>
 		</node>
 		<node>
 			<id>GetItemInSlot</id>

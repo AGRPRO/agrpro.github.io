@@ -6,7 +6,7 @@
 	<type>Node</type>
 	<shorttitle>CharacterMadeFootstepSound (AGR_SoundMaster)</shorttitle>
 	<fulltitle>CharacterMadeFootstepSound (AGR_SoundMaster)</fulltitle>
-	<description>variables</description>
+	<description>Character Made Footstep Sound</description>
 	<imgpath>../img/nd_img_CharacterMadeFootstepSound.png</imgpath>
 	<category>Add Event</category>
 	<inputs />

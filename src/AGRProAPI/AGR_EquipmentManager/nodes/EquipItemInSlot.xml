@@ -31,7 +31,7 @@ Before executing equip action, the following conditions will be checked:
 			<description></description>
 		</param>
 		<param>
-			<name>Item</name>
+			<name>Item Actor</name>
 			<type>Actor Object Reference</type>
 			<description></description>
 		</param>

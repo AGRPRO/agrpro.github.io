@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<docs_name>AGR Pro</docs_name>
+	<class_id>AGR_InventoryManager</class_id>
+	<class_name>AGR Inventory Manager</class_name>
+	<type>Node</type>
+	<shorttitle>OnItemUpdated (AGR_InventoryManager)</shorttitle>
+	<fulltitle>OnItemUpdated (AGR_InventoryManager)</fulltitle>
+	<description>Called whenever an item is updated inside the inventory.</description>
+	<imgpath>../img/nd_img_OnItemUpdated.png</imgpath>
+	<category>Add Event</category>
+	<inputs />
+	<outputs>
+		<param>
+			<name>Output Delegate</name>
+			<type>Delegate</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Out</name>
+			<type>Exec</type>
+			<description></description>
+		</param>
+		<param>
+			<name>Item</name>
+			<type>Actor Object Reference</type>
+			<description></description>
+		</param>
+	</outputs>
+</root>

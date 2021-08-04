@@ -35,10 +35,6 @@
 			<display_name>AGRCore Anim Instance</display_name>
 		</class>
 		<class>
-			<id>AGRLibrary</id>
-			<display_name>AGRLibrary</display_name>
-		</class>
-		<class>
 			<id>AGRUWDebugWidget</id>
 			<display_name>AGRUWDebug Widget</display_name>
 		</class>

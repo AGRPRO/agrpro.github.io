@@ -64,5 +64,9 @@
 			<id>bDebug</id>
 			<shorttitle>Set bDebug</shorttitle>
 		</node>
+		<node>
+			<id>OnItemUpdated</id>
+			<shorttitle>OnItemUpdated (AGR_InventoryManager)</shorttitle>
+		</node>
 	</nodes>
 </root>

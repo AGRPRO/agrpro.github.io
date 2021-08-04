@@ -4,10 +4,10 @@
 	<class_id>AGR_EquipmentManager</class_id>
 	<class_name>AGR Equipment Manager</class_name>
 	<type>Node</type>
-	<shorttitle>Get Soft Reference</shorttitle>
-	<fulltitle>Get Soft Reference</fulltitle>
-	<description>Get Soft Reference</description>
-	<imgpath>../img/nd_img_GetSoftReference.png</imgpath>
+	<shorttitle>Get Shortcut Reference</shorttitle>
+	<fulltitle>Get Shortcut Reference</fulltitle>
+	<description>Get Shortcut Reference</description>
+	<imgpath>../img/nd_img_GetShortcutReference.png</imgpath>
 	<category>AGR</category>
 	<inputs>
 		<param>
@@ -30,7 +30,7 @@
 		<param>
 			<name>Found</name>
 			<type>Boolean</type>
-			<description>Get Soft Reference</description>
+			<description>Get Shortcut Reference</description>
 		</param>
 	</outputs>
 </root>
