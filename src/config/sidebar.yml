@@ -8,6 +8,8 @@
   items:
     - label: 'Quick Start'
       link: '/quick-start'
+    - label: 'Example of documentation'
+      link: '/example-documentation'
 - label: More
   items:
     - label: Changelog
