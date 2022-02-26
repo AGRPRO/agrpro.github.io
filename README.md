@@ -12,7 +12,7 @@ To run the website locally, you'll need [nodejs](https://nodejs.org/en/) install
 
 ```
 npm install
-npm run dev
+npm run start
 ```
 
 ## Generate API documentation
