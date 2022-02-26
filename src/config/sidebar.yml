@@ -1,15 +1,19 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
+- label: Introduction
+  link: /
 - label: Discord Server
   link: https://discord.gg/KmtpmxfVb6
 - label: Getting Started
   items:
-    - label: 'Quick Start'
-      link: '/quick-start'
-    - label: 'Example of documentation'
-      link: '/example-documentation'
+    - label: Quick Start
+      link: /quick-start
+    - label: Example of documentation
+      link: /example-documentation
+- label: Components
+  items:
+    - label: Combat Manager
+      link: /combat-manager
 - label: More
   items:
     - label: Changelog
